@@ -12,4 +12,6 @@ public class EncryptTest {
         assertTrue(testText instanceof Encrypt);
     }
 
+
+
 }
