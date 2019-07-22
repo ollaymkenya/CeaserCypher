@@ -12,7 +12,7 @@ public class App {
 
         while (programRunning){
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println("----------------------WELCOME TO CEASER CIPHER-----------------------To Encrypt press 1 to decrypt press 2 to exit press 3");
+            System.out.println("----------------------WELCOME TO CEASER CIPHER-----------------------\n" +"To Encrypt press 1 to decrypt press 2 to exit press 3");
             try{
                 String navChoice = bufferedReader.readLine();
 
