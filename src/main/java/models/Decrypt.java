@@ -25,6 +25,7 @@ public class Decrypt {
         for (String x: uText){
             individuals += (vowels[letters.indexOf(x)] == ' '? ' ':letters.indexOf(x) + key > 25?vowels[letters.indexOf(x) - (26 - key)]: vowels[letters.indexOf(x) + key]);
         }
+
         return individuals;
     }
 }
