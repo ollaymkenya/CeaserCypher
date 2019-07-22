@@ -12,6 +12,8 @@ public class EncryptTest {
         assertTrue(testText instanceof Encrypt);
     }
 
-
-
+    @Test
+    public void runEncrypt_checkForText() {
+        assertEquals("Oliver" testText.getText());
+    }
 }
