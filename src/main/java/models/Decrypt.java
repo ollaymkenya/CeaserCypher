@@ -12,4 +12,8 @@ public class Decrypt {
     public String getText() {
         return text;
     }
+
+    public int getKey() {
+        return key;
+    }
 }
