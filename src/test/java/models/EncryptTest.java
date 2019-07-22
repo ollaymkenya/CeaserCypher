@@ -14,6 +14,6 @@ public class EncryptTest {
 
     @Test
     public void runEncrypt_checkForText() {
-        assertEquals("Oliver" testText.getText());
+        assertEquals("Oliver" ,testText.getText());
     }
 }

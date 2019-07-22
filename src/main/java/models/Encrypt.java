@@ -9,5 +9,7 @@ public class Encrypt {
         this.key = key;
     }
 
-
+    public String getText() {
+        return text;
+    }
 }
