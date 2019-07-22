@@ -12,4 +12,8 @@ public class Encrypt {
     public String getText() {
         return text;
     }
+
+    public int getKey() {
+        return key;
+    }
 }

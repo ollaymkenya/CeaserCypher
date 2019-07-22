@@ -19,6 +19,6 @@ public class EncryptTest {
 
     @Test
     public void runEncrypt_checkForKey() {
-        assertEquals("1" ,testText.getKey());
+        assertEquals(1, testText.getKey());
     }
 }
