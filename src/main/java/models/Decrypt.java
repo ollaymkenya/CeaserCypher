@@ -8,4 +8,8 @@ public class Decrypt {
         this.text = text;
         this.key = key;
     }
+
+    public String getText() {
+        return text;
+    }
 }

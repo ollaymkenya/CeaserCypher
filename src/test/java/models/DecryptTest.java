@@ -11,4 +11,9 @@ public class DecryptTest {
     public void runDecrypt_instanciate() {
         assertTrue(testText instanceof Decrypt);
     }
+
+    @Test
+    public void runDecrypt_checkForText() {
+        assertEquals("Oliver" ,testText.getText());
+    }
 }
