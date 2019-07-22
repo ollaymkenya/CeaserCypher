@@ -21,4 +21,9 @@ public class EncryptTest {
     public void runEncrypt_checkForKey() {
         assertEquals(1, testText.getKey());
     }
+
+    @Test
+    public void runEncrypt_Encrypt_Text() {
+        assertEquals("QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD", testText.encryptText("The quick brown fox jumps over the lazy dog", 3));
+    }
 }
